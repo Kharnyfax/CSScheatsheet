@@ -1,0 +1,54 @@
+body {
+    background-color: lightcyan;
+    font-family: Helvetica, Arial;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.element {
+    color: darkred;
+    font-family: monospace;
+}
+
+.class {
+    color: green;
+    font-family: monospace;
+}
+
+.declaration {
+    color: burlywood;
+    font-family: monospace;
+}
+
+.selector {
+    color: lightskyblue;
+    font-family: monospace;
+}
+
+table {
+    position: relative;
+    margin: auto;
+    line-height: 1.5;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+    width: 700px;
+}
+
+td {
+    border-bottom: 3px dashed darkcyan;
+    padding: 3px;
+}
+
+#bottom {
+    border-bottom: none;
+}
+
+th {
+    border-bottom: 5px solid darkcyan;
+}
+
+td:not(:first-child) {
+    border-left: 3px dashed darkcyan;
+}

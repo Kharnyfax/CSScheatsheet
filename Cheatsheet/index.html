@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheatsheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>My CSS cheatsheet</h1>
+    <h2>CSS Selector Reference</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Example</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Element</td>
+                <td class="element">p</td>
+                <td>Selects all <span class="element">< p ></span> elements</td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td class="class">.banner</td>
+                <td>Selects all elements with <span class="selector">class</span>=<span class="declaration">"banner"</span></td>
+            </tr>
+            <tr>
+                <td>Id</td>
+                <td>#button</td>
+                <td>Selects all elements with <span class="selector">id</span>=<span class="declaration">"button"</span></td>
+            </tr>
+            <tr>
+                <td class="element">*</td>
+                <td class="element">*</td>
+                <td>Selects all elements</td>
+            </tr>
+            <tr>
+                <td>Element<span class="class">.class</span></td>
+                <td><span class="element">p</span><span class="class">.banner</span></td>
+                <td>Selects all <span class="element">< p ></span> elements with 
+                    <span class="selector">class</span>=<span class="declaration">"banner"</span></td>
+            </tr>
+            <tr>
+                <td>Element, element</td>
+                <td class="element">p, span</td>
+                <td>Selects all <span class="element">< p ></span> elements and 
+                    <span class="element">< span ></span> elements</td>
+            </tr>
+            <tr>
+                <td id="bottom">Element element</td>
+                <td id="bottom" class="element">span p</td>
+                <td id="bottom">Selects all <span class="element">< span ></span> elements inside 
+                    <span class="element">< p ></span> element</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
